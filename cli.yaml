@@ -1,0 +1,17 @@
+name: file_uploader
+version: "1.0"
+author: Murilo M. Lacerda
+about: set host and port's server
+args:
+  - host:
+      short: x
+      long: host
+      value_name: APPHOST
+      help: Host's server
+      takes_value: true
+  - port:
+      short: p
+      long: port
+      value_name: APPPORT
+      help: Post's server
+      takes_value: true

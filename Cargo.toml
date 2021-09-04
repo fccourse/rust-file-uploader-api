@@ -1,0 +1,30 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#mime = "0.3.16"
+#anyhow = "1.0.43"
+#serde = { version = "1.0.130", features = ["derive"] }
+futures = "0.3.17"
+#failure = "0.1.8"
+actix-web = "3"
+#tracing = "0.1.26"
+#uuid = { version = "0.8.2", features = ["serde", "v4"] }
+#thiserror = "1.0.28"
+#futures-lite = "1.12.0"
+#async-fs = "1.5.0"
+#tracing-subscriber = "0.2.20" 
+#actix-form-data = "0.5.0"
+#form-data = "0.2.4"
+clap = {version = "2.33.3", features = ["yaml"]}
+sanitize-filename = "0.3.0"
+#actix-web-codegen = "0.5.0-beta.3"
+actix-multipart = "0.3" 
+#actix-multipart-rfc7578 = "0.5.0"
+#actix-rt = "2.2.0"
+#actix-macros = "0.2.1"
+actix-cors = "0.5"
